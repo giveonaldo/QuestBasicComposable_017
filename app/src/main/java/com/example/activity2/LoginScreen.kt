@@ -73,33 +73,33 @@ fun LoginScreen() {
             fontWeight = FontWeight.Bold,
             color = Color.Black
         )
-//
-//        Spacer(modifier = Modifier.height(5.dp))
-//
-//        Text(
-//            text = "20210140017",
-//            fontSize = 24.sp,
-//            fontWeight = FontWeight.Bold,
-//            color = Color.Black
-//        )
-//
-//        Spacer(modifier = Modifier.height(14.dp))
-//
-//        Surface(
-//            shape = CircleShape,
-//            modifier = Modifier
-//                .size(350.dp)
-//                .border(4.dp, Color.White, CircleShape),
-//            tonalElevation = 6.dp
-//        ) {
-//            Image(
-//                painter = painterResource(R.drawable.profile),
-//                contentDescription = "foto profil",
-//                modifier = Modifier
-//                    .fillMaxSize()
-//                    .clip(CircleShape),
-//                alignment = Alignment.Center
-//            )
-//        }
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Text(
+            text = "20210140017",
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
+
+        Spacer(modifier = Modifier.height(14.dp))
+
+        Surface(
+            shape = CircleShape,
+            modifier = Modifier
+                .size(350.dp)
+                .border(4.dp, Color.White, CircleShape),
+            tonalElevation = 6.dp
+        ) {
+            Image(
+                painter = painterResource(R.drawable.profile),
+                contentDescription = "foto profil",
+                modifier = Modifier
+                    .fillMaxSize()
+                    .clip(CircleShape),
+                alignment = Alignment.Center
+            )
+        }
     }
 }
