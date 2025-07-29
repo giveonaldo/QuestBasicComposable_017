@@ -49,14 +49,14 @@ fun LoginScreen() {
             style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Light),
             color = Color.Gray
         )
-//
-//        Spacer(modifier = Modifier.height(5.dp))
-//
-//        Image(
-//            painter = painterResource(id = R.drawable.itb),
-//            contentDescription = "Logo Institute Teknologi Bandung",
-//            modifier = Modifier.size(300.dp)
-//        )
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.itb),
+            contentDescription = "Logo Institute Teknologi Bandung",
+            modifier = Modifier.size(300.dp)
+        )
 //
 //        Spacer(modifier = Modifier.height(5.dp))
 //
