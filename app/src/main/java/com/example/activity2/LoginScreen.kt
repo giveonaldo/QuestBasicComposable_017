@@ -57,22 +57,22 @@ fun LoginScreen() {
             contentDescription = "Logo Institute Teknologi Bandung",
             modifier = Modifier.size(300.dp)
         )
-//
-//        Spacer(modifier = Modifier.height(5.dp))
-//
-//        Text(
-//            text = "Nama",
-//            fontSize = 16.sp,
-//            fontWeight = FontWeight.SemiBold,
-//            color = Color.Red
-//        )
-//
-//        Text(
-//            text = "Abriansyah Adam",
-//            fontSize = 16.sp,
-//            fontWeight = FontWeight.Bold,
-//            color = Color.Black
-//        )
+
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Text(
+            text = "Nama",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.SemiBold,
+            color = Color.Red
+        )
+
+        Text(
+            text = "Abriansyah Adam",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black
+        )
 //
 //        Spacer(modifier = Modifier.height(5.dp))
 //
