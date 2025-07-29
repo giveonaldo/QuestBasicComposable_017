@@ -42,13 +42,13 @@ fun LoginScreen() {
             color = Color.Black
         )
 
-//        Spacer(modifier = Modifier.height(5.dp))
-//
-//        Text(
-//            text = "Ini adalah halaman login",
-//            style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Light),
-//            color = Color.Gray
-//        )
+        Spacer(modifier = Modifier.height(5.dp))
+
+        Text(
+            text = "Ini adalah halaman login",
+            style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Light),
+            color = Color.Gray
+        )
 //
 //        Spacer(modifier = Modifier.height(5.dp))
 //
