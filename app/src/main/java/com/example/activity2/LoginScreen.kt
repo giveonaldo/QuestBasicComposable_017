@@ -64,10 +64,8 @@ fun LoginScreen() {
         Spacer(modifier = Modifier.height(5.dp))
 
         Row(
-            modifier = Modifier
-                .padding(10.dp)
-                .fillMaxWidth(),
-            verticalAlignment = Alignment.CenterVertically
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center
         ) {
             Text(
                 text = "Nama",
